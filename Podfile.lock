@@ -1,0 +1,37 @@
+PODS:
+  - Auth0 (2.5.0):
+    - JWTDecode (~> 3.1)
+    - SimpleKeychain (~> 1.1)
+  - Guardian (1.1.0)
+  - JWTDecode (3.1.0)
+  - SimpleKeychain (1.1.0)
+
+DEPENDENCIES:
+  - Auth0 (~> 2.0)
+  - Guardian (from `https://github.com/auth0/Guardian.swift.git`, tag `1.1.0`)
+
+SPEC REPOS:
+  trunk:
+    - Auth0
+    - JWTDecode
+    - SimpleKeychain
+
+EXTERNAL SOURCES:
+  Guardian:
+    :git: https://github.com/auth0/Guardian.swift.git
+    :tag: 1.1.0
+
+CHECKOUT OPTIONS:
+  Guardian:
+    :git: https://github.com/auth0/Guardian.swift.git
+    :tag: 1.1.0
+
+SPEC CHECKSUMS:
+  Auth0: 72f19ad566fdf57f07bf37f828afd0c1570769a5
+  Guardian: aa76f8183df72b54c430ac30231fff71dd30ba92
+  JWTDecode: 3eaab1e06b6f4dcbdd6716aff09ba4c2104ca8b7
+  SimpleKeychain: f8707c8e97b38c6a6e687b17732afc9bcef06439
+
+PODFILE CHECKSUM: 85ed5b231709a1bd099d1e4278a8effa39ea982e
+
+COCOAPODS: 1.12.1

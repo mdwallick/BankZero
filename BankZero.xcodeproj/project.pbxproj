@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BEB92245FE5F4F3442A6A38 /* Pods_BankZero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82A4ECA6AB9B5F1D98DC5E9 /* Pods_BankZero.framework */; };
 		BCED29E42A7B0F44004FB6BD /* BankZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED29E32A7B0F44004FB6BD /* BankZeroApp.swift */; };
 		BCED29E62A7B0F44004FB6BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED29E52A7B0F44004FB6BD /* ContentView.swift */; };
 		BCED29E82A7B0F45004FB6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED29E72A7B0F45004FB6BD /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		BCED29F52A7B0F46004FB6BD /* BankZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED29F42A7B0F46004FB6BD /* BankZeroTests.swift */; };
 		BCED29FF2A7B0F46004FB6BD /* BankZeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED29FE2A7B0F46004FB6BD /* BankZeroUITests.swift */; };
 		BCED2A012A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A002A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift */; };
+		BCED2A0F2A7B100C004FB6BD /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = BCED2A0E2A7B100C004FB6BD /* Auth0 */; };
+		BCED2A122A7B1135004FB6BD /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCED2A112A7B1135004FB6BD /* Auth0.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		460EA2433D01DC7ED2D5BAEA /* Pods-BankZero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankZero.release.xcconfig"; path = "Target Support Files/Pods-BankZero/Pods-BankZero.release.xcconfig"; sourceTree = "<group>"; };
 		BCED29E02A7B0F44004FB6BD /* BankZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCED29E32A7B0F44004FB6BD /* BankZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankZeroApp.swift; sourceTree = "<group>"; };
 		BCED29E52A7B0F44004FB6BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,10 @@
 		BCED29FA2A7B0F46004FB6BD /* BankZeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankZeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCED29FE2A7B0F46004FB6BD /* BankZeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankZeroUITests.swift; sourceTree = "<group>"; };
 		BCED2A002A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankZeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCED2A102A7B10FC004FB6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BCED2A112A7B1135004FB6BD /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		D82A4ECA6AB9B5F1D98DC5E9 /* Pods_BankZero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankZero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13EF9D7A7032A7776F65684 /* Pods-BankZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankZero.debug.xcconfig"; path = "Target Support Files/Pods-BankZero/Pods-BankZero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCED2A0F2A7B100C004FB6BD /* Auth0 in Frameworks */,
+				9BEB92245FE5F4F3442A6A38 /* Pods_BankZero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C8D9D84B99B8DE11620611D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13EF9D7A7032A7776F65684 /* Pods-BankZero.debug.xcconfig */,
+				460EA2433D01DC7ED2D5BAEA /* Pods-BankZero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C4254CE20B9210101866CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82A4ECA6AB9B5F1D98DC5E9 /* Pods_BankZero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCED29D72A7B0F44004FB6BD = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +105,8 @@
 				BCED29F32A7B0F46004FB6BD /* BankZeroTests */,
 				BCED29FD2A7B0F46004FB6BD /* BankZeroUITests */,
 				BCED29E12A7B0F44004FB6BD /* Products */,
+				3C8D9D84B99B8DE11620611D /* Pods */,
+				7C4254CE20B9210101866CF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +123,8 @@
 		BCED29E22A7B0F44004FB6BD /* BankZero */ = {
 			isa = PBXGroup;
 			children = (
+				BCED2A112A7B1135004FB6BD /* Auth0.plist */,
+				BCED2A102A7B10FC004FB6BD /* Info.plist */,
 				BCED29E32A7B0F44004FB6BD /* BankZeroApp.swift */,
 				BCED29E52A7B0F44004FB6BD /* ContentView.swift */,
 				BCED29E72A7B0F45004FB6BD /* Assets.xcassets */,
@@ -134,15 +165,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCED2A042A7B0F46004FB6BD /* Build configuration list for PBXNativeTarget "BankZero" */;
 			buildPhases = (
+				F09631A83C17812D528AADC1 /* [CP] Check Pods Manifest.lock */,
 				BCED29DC2A7B0F44004FB6BD /* Sources */,
 				BCED29DD2A7B0F44004FB6BD /* Frameworks */,
 				BCED29DE2A7B0F44004FB6BD /* Resources */,
+				6F677C34A840A7D54226923F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BankZero;
+			packageProductDependencies = (
+				BCED2A0E2A7B100C004FB6BD /* Auth0 */,
+			);
 			productName = BankZero;
 			productReference = BCED29E02A7B0F44004FB6BD /* BankZero.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +251,9 @@
 				Base,
 			);
 			mainGroup = BCED29D72A7B0F44004FB6BD;
+			packageReferences = (
+				BCED2A0D2A7B100C004FB6BD /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = BCED29E12A7B0F44004FB6BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCED29EB2A7B0F45004FB6BD /* Preview Assets.xcassets in Resources */,
+				BCED2A122A7B1135004FB6BD /* Auth0.plist in Resources */,
 				BCED29E82A7B0F45004FB6BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +291,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F677C34A840A7D54226923F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankZero/Pods-BankZero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankZero/Pods-BankZero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BankZero/Pods-BankZero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09631A83C17812D528AADC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankZero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCED29DC2A7B0F44004FB6BD /* Sources */ = {
@@ -411,6 +493,7 @@
 		};
 		BCED2A052A7B0F46004FB6BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13EF9D7A7032A7776F65684 /* Pods-BankZero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +503,7 @@
 				DEVELOPMENT_TEAM = 88VDMUUDGU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankZero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +524,7 @@
 		};
 		BCED2A062A7B0F46004FB6BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460EA2433D01DC7ED2D5BAEA /* Pods-BankZero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +534,7 @@
 				DEVELOPMENT_TEAM = 88VDMUUDGU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankZero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +669,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCED2A0D2A7B100C004FB6BD /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCED2A0E2A7B100C004FB6BD /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCED2A0D2A7B100C004FB6BD /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCED29D82A7B0F44004FB6BD /* Project object */;
 }
