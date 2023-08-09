@@ -17,6 +17,12 @@
 		BCED2A012A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A002A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift */; };
 		BCED2A0F2A7B100C004FB6BD /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = BCED2A0E2A7B100C004FB6BD /* Auth0 */; };
 		BCED2A122A7B1135004FB6BD /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCED2A112A7B1135004FB6BD /* Auth0.plist */; };
+		BCED2A142A7B1299004FB6BD /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A132A7B1299004FB6BD /* HomePage.swift */; };
+		BCED2A162A7B1353004FB6BD /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A152A7B1353004FB6BD /* LoginButton.swift */; };
+		BCED2A1A2A7B1534004FB6BD /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A192A7B1534004FB6BD /* LogoutButton.swift */; };
+		BCED2A1E2A7BEAE0004FB6BD /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A1D2A7BEAE0004FB6BD /* UserProfile.swift */; };
+		BCED2A212A7BEB34004FB6BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A202A7BEB34004FB6BD /* User.swift */; };
+		BCED2A232A7BF67F004FB6BD /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED2A222A7BF67F004FB6BD /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,12 @@
 		BCED2A002A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankZeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BCED2A102A7B10FC004FB6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BCED2A112A7B1135004FB6BD /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		BCED2A132A7B1299004FB6BD /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BCED2A152A7B1353004FB6BD /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		BCED2A192A7B1534004FB6BD /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
+		BCED2A1D2A7BEAE0004FB6BD /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		BCED2A202A7BEB34004FB6BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BCED2A222A7BF67F004FB6BD /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		D82A4ECA6AB9B5F1D98DC5E9 /* Pods_BankZero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankZero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13EF9D7A7032A7776F65684 /* Pods-BankZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankZero.debug.xcconfig"; path = "Target Support Files/Pods-BankZero/Pods-BankZero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +135,8 @@
 		BCED29E22A7B0F44004FB6BD /* BankZero */ = {
 			isa = PBXGroup;
 			children = (
+				BCED2A1F2A7BEB25004FB6BD /* Models */,
+				BCED2A172A7B1508004FB6BD /* Views */,
 				BCED2A112A7B1135004FB6BD /* Auth0.plist */,
 				BCED2A102A7B10FC004FB6BD /* Info.plist */,
 				BCED29E32A7B0F44004FB6BD /* BankZeroApp.swift */,
@@ -156,6 +170,34 @@
 				BCED2A002A7B0F46004FB6BD /* BankZeroUITestsLaunchTests.swift */,
 			);
 			path = BankZeroUITests;
+			sourceTree = "<group>";
+		};
+		BCED2A172A7B1508004FB6BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCED2A182A7B151C004FB6BD /* Helpers */,
+				BCED2A132A7B1299004FB6BD /* HomePage.swift */,
+				BCED2A1D2A7BEAE0004FB6BD /* UserProfile.swift */,
+				BCED2A222A7BF67F004FB6BD /* Views.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCED2A182A7B151C004FB6BD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BCED2A152A7B1353004FB6BD /* LoginButton.swift */,
+				BCED2A192A7B1534004FB6BD /* LogoutButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BCED2A1F2A7BEB25004FB6BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCED2A202A7BEB34004FB6BD /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +382,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCED29E62A7B0F44004FB6BD /* ContentView.swift in Sources */,
+				BCED2A1E2A7BEAE0004FB6BD /* UserProfile.swift in Sources */,
+				BCED2A1A2A7B1534004FB6BD /* LogoutButton.swift in Sources */,
+				BCED2A162A7B1353004FB6BD /* LoginButton.swift in Sources */,
+				BCED2A232A7BF67F004FB6BD /* Views.swift in Sources */,
+				BCED2A142A7B1299004FB6BD /* HomePage.swift in Sources */,
 				BCED29E42A7B0F44004FB6BD /* BankZeroApp.swift in Sources */,
+				BCED2A212A7BEB34004FB6BD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
